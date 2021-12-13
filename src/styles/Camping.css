@@ -8,7 +8,7 @@
 
 .cad-camping-rescued {
   display: flex;
-  justify-content: end;
+  flex: end;
   margin-bottom: 10px;
 }
 

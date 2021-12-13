@@ -68,10 +68,10 @@ export default function Rescued() {
   const [dataForm, setDataForm] = useState({
     name: '',
     age: '',
-    blood: '',
+    blood: 'AB+',
     ability: ability,
     wound: '',
-    work: ''
+    work: 'Apenas trabalhos leves'
   })
 
 
@@ -129,11 +129,11 @@ export default function Rescued() {
     setDataForm({
       name: '',
       age: '',
-      blood: '',
+      blood: 'AB+',
       ability: ability,
       wound: '',
-      work: ''
-    })
+      work: 'Apenas trabalhos leves'
+    });
 
     setAbility(abilityMock)
 
