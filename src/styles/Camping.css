@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata&display=swap');
+
+.camping-rescued-title {
+  font-family: 'Literata', serif;
+  color: #0c465c;
+  text-align: center;
+}
+
+.cad-camping-rescued {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.link-back {
+  text-decoration: none;
+  color: #0c465c;
+}
+
+.link-back-group {
+  border: 1px solid #0c465c;
+  border-radius: 6px;
+  height: 20px;
+  padding: 5px 2px;
+  display: flex;
+  margin-left: auto;
+  width: 10%;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata&display=swap');
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c465c;
+}
+
+.title-header {
+  font-family: 'Literata', serif;
+  color: #0c465c;
+}
+
+.header-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vh;
+  height: 80vh;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.text {
+  font-style: oblique;
+  color: #0c465c;
+}
+
+.text-select {
+  color: #0c465c;
+}
+
+.filter-group {
+  display: flex;
+  padding: 20px 50px;
+  gap: 10px;
+  color: #0c465c;
+}
+
+.filters-camp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 15px; 
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.filters-rescued {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 15px; 
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #0c465c;
+}
+
+.btn-filter {
+  border: 2px solid #0c465c;
+  border-radius: 5px;
+  width: 110px;
+  height: 34px;
+  background-color: white;
+  color: #0c465c;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out
+}
+
+.btn-filter:hover {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #0c465c;
+}
+
+.links {
+  margin-bottom: 10px;
+  border: 1px solid #0c465c;
+  border-radius: 6px;
+  height: 20px;
+  padding: 5px 2px;
+}
+
+.select {
+  border: 2px solid #0c465c;
+  border-radius: 5px;
+  width: 136px;
+  height: 34px;
+  background-color: white;
+  color: #0c465c;
+  font-weight: 600;
+  margin-left: 6px;
+}
